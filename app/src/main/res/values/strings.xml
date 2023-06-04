@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">SegundaTentativa</string>
+    <string name="h2">Juntos pela erradicação da fome</string>
+    <string name="nome">Email</string>
+    <string name="senha">Senha</string>
+    <string name="btEntra">Entrar</string>
+
+    <string name="Ola">Olá</string>
+    <string name="sair">Sair</string>
+    <string name="descricao">Escolas beneficiadas</string>
+    <string name="escola1">ESCOLA MUNICIPAL ELONILDA DE OLIVEIRA</string>
+    <string name="escola2">ESCOLA MUNICIPAL MOREIRA NETO</string>
+    <string name="escola3">ESCOLA MUNICIPAL MARIA EMILIA</string>
+    <string name="escola4">ESCOLA MUNICIPAL CIDADE NOVA</string>
+    <string name="fazerDoacao">Fazer Doação</string>
+
+    <string name="descricaoDoar">Área de doação</string>
+    <string name="valorDoar">Digite o valor da doação</string>
+    <string name="botaoDoar">Doar</string>
+
+
+    <string name="cdDescricao">Insira um email e senha válidos para efetuar o cadastro.</string>
+    <string name="cdUsuario">Cadastrar</string>
+
+</resources>

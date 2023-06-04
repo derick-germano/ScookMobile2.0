@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/btDoacao"
+        android:layout_width="315dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="4dp"
+        android:text='@string/fazerDoacao'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="117dp"
+        android:layout_height="78dp"
+        app:layout_constraintEnd_toStartOf="@+id/txFixo"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/union"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/tfUsuario"
+        android:layout_width="93dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="316dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="gravity"
+        android:textColor="#4705BC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/btSair"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txFixo"
+        android:layout_width="61dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="sans-serif-black"
+        android:text='@string/Ola'
+        android:textAlignment="viewEnd"
+        android:textColor="#4705BC"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/tfUsuario"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btSair"
+        android:layout_width="78dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="28dp"
+        android:text='@string/sair'
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="149dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloDiv"
+        app:srcCompat="@drawable/escola" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="149dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/tituloDiv"
+        app:srcCompat="@drawable/escola2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="149dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tituloDiv"
+        app:srcCompat="@drawable/escola3" />
+
+    <TextView
+        android:id="@+id/tituloDiv"
+        android:layout_width="162dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text='@string/descricao'
+        android:textAlignment="center"
+        android:textColor="#070707"
+        app:layout_constraintEnd_toStartOf="@+id/linhaDiv"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="142dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        android:text='@string/escola1'
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="140dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:text='@string/escola2'
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="149dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/tituloDiv"
+        app:srcCompat="@drawable/escolacerta" />
+
+    <TextView
+        android:id="@+id/linhaDiv"
+        android:layout_width="505dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:text="____________________________________________________________________________"
+        android:textColor="#040303"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="140dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:text='@string/escola3'
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="140dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:text='@string/escola4'
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

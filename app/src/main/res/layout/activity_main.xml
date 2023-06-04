@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_login"
+        android:layout_width="318dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/union" />
+
+    <TextView
+        android:id="@+id/frase_login"
+        android:layout_width="312dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text= '@string/h2'
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/nome_login"
+        app:layout_constraintEnd_toEndOf="@+id/img_login"
+        app:layout_constraintStart_toStartOf="@+id/img_login"
+        app:layout_constraintTop_toBottomOf="@+id/img_login"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <EditText
+        android:id="@+id/nome_login"
+        android:layout_width="326dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="40dp"
+        android:ems="10"
+        android:hint='@string/nome'
+        android:inputType="textPersonName"
+        android:shadowColor="#FAFAFA"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFCFC"
+        android:textColorHint="#053D9C"
+        android:textColorLink="#FFFEFE"
+        app:layout_constraintBottom_toTopOf="@+id/senha_login"
+        app:layout_constraintStart_toStartOf="@+id/frase_login" />
+
+    <EditText
+        android:id="@+id/senha_login"
+        android:layout_width="326dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="68dp"
+        android:ems="10"
+        android:hint='@string/senha'
+        android:inputType="numberPassword"
+        android:textColor="#F6F4F4"
+        android:textColorHighlight="#FBFBFB"
+        android:textColorHint="#053D9C"
+        app:layout_constraintBottom_toTopOf="@+id/botao_login"
+        app:layout_constraintStart_toStartOf="@+id/nome_login" />
+
+    <Button
+        android:id="@+id/botao_login"
+        android:layout_width="177dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="140dp"
+        android:text='@string/btEntra'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/senha_login"
+        app:layout_constraintStart_toStartOf="@+id/senha_login" />
+
+    <TextView
+        android:id="@+id/click_cd"
+        android:layout_width="139dp"
+        android:layout_height="35dp"
+        android:fontFamily="sans-serif-black"
+        android:text="CADASTRE-SE"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/botao_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/senha_login"
+        app:layout_constraintVertical_bias="0.515" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

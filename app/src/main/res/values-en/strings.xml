@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SegundaTentativa</string>
+    <string name="h2">Together for the eradication of hunger</string>
+    <string name="nome">Email</string>
+    <string name="senha">Password</string>
+    <string name="btEntra">To enter</string>
+
+    <string name="Ola">Hello</string>
+    <string name="sair">Exit</string>
+    <string name="descricao">Beneficiary schools</string>
+    <string name="escola1">ELONILDA DE OLIVEIRA MUNICIPAL SCHOOL</string>
+    <string name="escola2">MOREIRA NETO MUNICIPAL SCHOOL</string>
+    <string name="escola3">MARIA EMILIA MUNICIPAL SCHOOL</string>
+    <string name="escola4">CITY NOVA MUNICIPAL SCHOOL</string>
+    <string name="fazerDoacao">Make Donation</string>
+
+    <string name="descricaoDoar">Donation area</string>
+    <string name="valorDoar">Enter the donation amount</string>
+    <string name="botaoDoar">Donate</string>
+
+</resources>
